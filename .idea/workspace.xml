@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7277172-8c05-49d2-a9dd-d8254612f1db" name="Changes" comment="Merge remote-tracking branch 'origin/main'" />
+    <list default="true" id="a7277172-8c05-49d2-a9dd-d8254612f1db" name="Changes" comment="Merge remote-tracking branch 'origin/main'">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello.txt" beforeDir="false" afterPath="$PROJECT_DIR$/hello.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,7 +35,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="useMavenConfig" value="true" />
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -45,12 +49,13 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2321839" />
   </component>
-  <component name="RunManager" selected="JUnit.ReverseTest">
+  <component name="RunManager" selected="Application.InputText">
     <configuration name="InputText" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.foxminded.anagram.InputText" />
       <module name="Test1_r3" />
@@ -79,21 +84,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ReverseTest" />
         <item itemvalue="Application.InputText" />
+        <item itemvalue="JUnit.ReverseTest" />
       </list>
     </recent_temporary>
   </component>
@@ -107,6 +101,7 @@
       <updated>1643648664781</updated>
       <workItem from="1643648677418" duration="882000" />
       <workItem from="1643653759505" duration="551000" />
+      <workItem from="1643666192103" duration="251000" />
     </task>
     <task id="LOCAL-00001" summary="Merge remote-tracking branch 'origin/main'">
       <created>1643648766688</created>
@@ -138,9 +133,32 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Merge remote-tracking branch 'origin/main'" />
     <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/main'" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1579" height="267" key="GridCell.Tab.0.bottom" timestamp="1643666401942">
+      <screen x="50" y="23" width="1630" height="1027" />
+    </state>
+    <state width="1579" height="267" key="GridCell.Tab.0.bottom/50.23.1630.1027@50.23.1630.1027" timestamp="1643666401942" />
+    <state width="1579" height="267" key="GridCell.Tab.0.center" timestamp="1643666401941">
+      <screen x="50" y="23" width="1630" height="1027" />
+    </state>
+    <state width="1579" height="267" key="GridCell.Tab.0.center/50.23.1630.1027@50.23.1630.1027" timestamp="1643666401941" />
+    <state width="1579" height="267" key="GridCell.Tab.0.left" timestamp="1643666401940">
+      <screen x="50" y="23" width="1630" height="1027" />
+    </state>
+    <state width="1579" height="267" key="GridCell.Tab.0.left/50.23.1630.1027@50.23.1630.1027" timestamp="1643666401940" />
+    <state width="1579" height="267" key="GridCell.Tab.0.right" timestamp="1643666401941">
+      <screen x="50" y="23" width="1630" height="1027" />
+    </state>
+    <state width="1579" height="267" key="GridCell.Tab.0.right/50.23.1630.1027@50.23.1630.1027" timestamp="1643666401941" />
+    <state x="463" y="269" key="Vcs.Push.Dialog.v2" timestamp="1643666355237">
+      <screen x="50" y="23" width="1630" height="1027" />
+    </state>
+    <state x="463" y="269" key="Vcs.Push.Dialog.v2/50.23.1630.1027@50.23.1630.1027" timestamp="1643666355237" />
   </component>
 </project>
