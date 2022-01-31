@@ -48,7 +48,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2321839" />
   </component>
-  <component name="RunManager" selected="Application.InputText">
+  <component name="RunManager" selected="JUnit.ReverseTest">
     <configuration name="InputText" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.foxminded.anagram.InputText" />
       <module name="Test1_r3" />
@@ -77,10 +77,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.InputText" />
         <item itemvalue="JUnit.ReverseTest" />
+        <item itemvalue="Application.InputText" />
       </list>
     </recent_temporary>
   </component>
