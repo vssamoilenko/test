@@ -22,11 +22,20 @@ public class Reverse {
         }
         return String.join(" ", outputWords);
 */
+/*
         List<String> words = Arrays.stream(text.split(" ")).collect(Collectors.toList());
         words.stream()
                 .map(this::convertingTheWord)
                 .forEach(this::prepareOutputWord);
         return this.outputText.substring(1);
+*/
+        List<String> words = Arrays.stream(text.split(" ")).collect(Collectors.toList());
+        outputText = words.stream()
+                .map(this::convertingTheWord)
+                //.map(s -> s.toString())
+                .map(Object::toString)
+                .collect (Collectors.joining(" "));
+        return outputText;
     }
 
     private void prepareOutputWord(String Words) {
